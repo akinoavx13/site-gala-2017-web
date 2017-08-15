@@ -1,0 +1,46 @@
+section {
+    background: url('http://placehold.it/1920x1080') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 80vh;
+}
+
+h1 {
+    margin: 0;
+}
+
+.artist-name {
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.section-title {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.ticket-for-sale {
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.ticket-sale-point-box {
+    border: 2px solid white;
+    height: 30vh;
+}
+
+.ticket-sale-point {
+    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    padding-top: 7vh;
+}
