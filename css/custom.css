@@ -44,6 +44,12 @@ section {
     height: 80vh;
 }
 
+#section-artist {
+    background: url("../img/section/artiste-background.png") no-repeat center center;
+    background-size: 100%;
+    height: 80vh;
+}
+
 h1 {
     margin: 0;
 }
@@ -56,7 +62,7 @@ h1 {
 }
 
 .section-title {
-    font-size: 17px;
+    font-size: 30px;
     color: white;
     text-transform: uppercase;
     padding-left: 30px;
@@ -80,4 +86,9 @@ h1 {
     color: white;
     font-size: 60px;
     padding-top: 7vh;
+}
+
+.text-home-page {
+    color: #282945;
+    text-transform: uppercase;
 }
