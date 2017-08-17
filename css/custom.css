@@ -7,6 +7,16 @@ section {
     height: 80vh;
 }
 
+#section-home {
+    background: url("../img/section/home-background.png") no-repeat center center;
+    height: 80vh;
+}
+
+#section-tickets {
+    background: url("../img/section/billeterie-background.png") no-repeat center center;
+    height: 80vh;
+}
+
 h1 {
     margin: 0;
 }
