@@ -18,10 +18,10 @@ var config = {
 var colorPalette = {
     bg: {r:12,g:9,b:29},
     matter: [
-        {r:36,g:18,b:42}, // darkPRPL
-        {r:78,g:36,b:42}, // rockDust
-        {r:252,g:178,b:96}, // solorFlare
-        {r:253,g:238,b:152} // totesASun
+        {r:66,g:32,b:117}, // Violet foncé
+        {r:122,g:37,b:113}, // Mauve
+        {r:173,g:157,b:210}, // Rose pale
+        {r:159,g:179,b:192} // Bleu pale
     ]
 };
 
