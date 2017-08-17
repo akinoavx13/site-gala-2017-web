@@ -1,94 +1,54 @@
-@font-face {
-    font-family: Anurati-Regular;
-    src: url("../fonts/Anurati-Regular.otf");
+#home {
+    background-image: url("../img/home-background.png");
 }
 
-@font-face {
-    font-family: BebasNeue;
-    src: url("../fonts/BebasNeue.otf");
+#artist {
+    background-image: url("../img/artiste-background.png");
 }
 
-@font-face {
-    font-family: Montserrat-Medium;
-    src: url("../fonts/Montserrat-Medium.otf");
+#tickets {
+    background-image: url("../img/billeterie-background.png");
 }
 
-@font-face {
-    font-family: Montserrat-Regular;
-    src: url("../fonts/Montserrat-Regular.otf");
+#gala-title {
+    font-family: Anurati-Regular, sans-serif;
+    color: #282945;
+    text-transform: uppercase;
+    font-size: 200px;
 }
 
-@font-face {
-    font-family: Montserrat-Light;
-    src: url("../fonts/Montserrat-Light.otf");
+#gala-subtitle {
+    font-family: Montserrat-Light, sans-serif;
+    color: #282945;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
-section {
-    background: url('http://placehold.it/1920x1080') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    height: 80vh;
-}
-
-#section-home {
-    background: url("../img/section/home-background.png") no-repeat;
-    background-size: 100%;
-    height: 80vh;
-}
-
-#section-tickets {
-    background: url("../img/section/billeterie-background.png") no-repeat center center;
-    background-size: 100%;
-    height: 80vh;
-}
-
-#section-artist {
-    background: url("../img/section/artiste-background.png") no-repeat center center;
-    background-size: 100%;
-    height: 80vh;
-}
-
-h1 {
-    margin: 0;
+#gala-date {
+    font-family: Montserrat-Light, sans-serif;
+    color: #282945;
+    text-transform: uppercase;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    margin-bottom: 40px;
 }
 
 .artist-name {
+    font-family: Montserrat-Medium, sans-serif;
     font-size: 90px;
-    color: white;
     text-transform: uppercase;
-    padding-top: 20px;
 }
 
-.section-title {
+.header-title {
+    background: url("../img/icons/bar.png") no-repeat left;
+    font-family: Montserrat-Light, sans-serif;
     font-size: 30px;
     color: white;
     text-transform: uppercase;
-    padding-left: 30px;
-    padding-top: 30px;
-    margin: 0;
-}
-
-.ticket-for-sale {
-    color: white;
-    font-size: 40px;
-    text-transform: uppercase;
-}
-
-.ticket-sale-point-box {
-    border: 2px solid white;
-    height: 30vh;
-}
-
-.ticket-sale-point {
-    text-transform: uppercase;
-    color: white;
-    font-size: 60px;
-    padding-top: 7vh;
-}
-
-.text-home-page {
-    color: #282945;
-    text-transform: uppercase;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    padding-left: 80px;
 }
