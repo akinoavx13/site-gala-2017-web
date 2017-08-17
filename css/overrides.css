@@ -1,0 +1,7 @@
+#mainNav {
+    background-color: transparent;
+}
+
+#mainNav.navbar-shrink {
+    background-color: #ffffff;
+}

@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    #gala-title {
+        font-size: 100px;
+    }
+
+    #gala-subtitle {
+        font-size: 15px;
+    }
+
+    #gala-date {
+        font-size: 13px;
+        left: 30%;
+        margin-bottom: 20px;
+    }
+
+    .artist-name {
+        font-size: 40px;
+    }
+
+    .header-title {
+        font-size: 20px;
+    }
+}
