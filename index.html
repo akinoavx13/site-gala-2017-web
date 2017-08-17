@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -66,9 +65,9 @@
     </div>
     <h3 id="gala-date">Vendredi 10 Novembre</h3>
 </header>
-
-<header class="masthead" id="artist">
+<header class="masthead" id="artist" style="display: block">
     <p class="header-title">Les artistes</p>
+    <div id="particles-js"></div>
     <div class="header-content">
         <p class="artist-name">Yall</p>
         <p class="artist-name">Dj Shirp</p>
@@ -76,10 +75,11 @@
     </div>
 </header>
 
+
+
 <header class="masthead" id="tickets">
     <div class="header-content">
         <div class="header-content-inner">
-
         </div>
     </div>
 </header>
@@ -96,6 +96,13 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/creative.min.js"></script>
+<script src="node_modules/particles.js/particles.js"></script>
+
+<script type="application/javascript">
+    particlesJS.load('particles-js', 'assets/particles.json', function () {
+        console.log('callback - particles.js config loaded');
+    });
+</script>
 
 </body>
 
