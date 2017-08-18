@@ -88,6 +88,8 @@
     color: #282945;
     width: 250px;
     text-align: left;
+    position: absolute;
+    top: -200px;
 }
 
 .animation h1 {
@@ -107,4 +109,20 @@
     font-size: 13px;
     margin-top: 30px;
     max-width: 200px;
+}
+
+#champagne, #massage {
+    opacity: 0;
+}
+
+#champagne {
+    right: 40%;
+}
+
+#massage {
+    right: 20%;
+}
+
+#fireworks {
+    right: 75%;
 }
