@@ -17,7 +17,7 @@
         font-size: 40px;
     }
 
-    .header-title {
+    .header-title, .header-title-dark {
         font-size: 20px;
     }
 
@@ -31,5 +31,47 @@
         max-height: 500px;
         -webkit-background-size: cover;
         background-size: cover;
+    }
+
+    #header-title-tickets {
+        font-size: 35px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    #animations {
+        background-image: url("../img/animations-background-mobile.png");
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-color: rgb(206, 207, 208);
+        height: 300px;
+    }
+
+    .animation {
+        position: absolute;
+        top: 60px;
+        color: #282945;
+        width: 100px;
+        text-align: left;
+    }
+
+    .animation h1 {
+        font-family: BebasNeue, sans-serif;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .animation h2 {
+        font-family: Montserrat-Regular, sans-serif;
+        font-size: 20px;
+        background: url("../img/icons/animation-bar.png") no-repeat bottom center;
+        padding-bottom: 10px;
+    }
+
+    .animation p {
+        font-family: Montserrat-Light, sans-serif;
+        font-size: 10px;
+        margin-top: 10px;
+        max-width: 100px;
     }
 }

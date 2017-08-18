@@ -1,5 +1,5 @@
 #home {
-    background-image: url("../img/home-background.png");
+    background-image: url("../img/header.jpg");
 }
 
 #artist {
@@ -8,6 +8,12 @@
 
 #tickets {
     background-image: url("../img/billeterie-background.png");
+}
+
+#animations {
+    background-image: url("../img/animations-background.png");
+    width: 100%;
+    height: auto;
 }
 
 #gala-title {
@@ -41,7 +47,7 @@
     text-transform: uppercase;
 }
 
-.header-title {
+.header-title, .header-title-dark {
     background: url("../img/icons/bar.png") no-repeat left;
     font-family: Montserrat-Light, sans-serif;
     font-size: 30px;
@@ -53,6 +59,11 @@
     padding-left: 80px;
 }
 
+.header-title-dark {
+    background: url("../img/icons/bar-dark.png") no-repeat left;
+    color: #282945;
+}
+
 #artists-name {
     position: absolute;
     top: 50%;
@@ -61,4 +72,39 @@
 #canvas {
     width: 100%;
     min-height: auto;
+}
+
+#header-title-tickets {
+    background: url("../img/icons/bar-underline.png") no-repeat bottom center;
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.animation {
+    color: #282945;
+    width: 250px;
+    text-align: left;
+}
+
+.animation h1 {
+    font-family: BebasNeue, sans-serif;
+    font-size: 90px;
+}
+
+.animation h2 {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 50px;
+    background: url("../img/icons/animation-bar.png") no-repeat bottom center;
+    padding-bottom: 30px;
+}
+
+.animation p {
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 13px;
+    margin-top: 30px;
+    max-width: 200px;
 }
