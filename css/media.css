@@ -78,4 +78,17 @@
     #fireworks {
         right: 68%;
     }
+
+    .location-bold, .location-regular {
+        margin-left: 60px;
+    }
+
+    #maps {
+        height: 60%;
+    }
+
+    #box-location {
+        background-color: rgb(204, 206, 207);        
+        height: 85%;
+    }
 }

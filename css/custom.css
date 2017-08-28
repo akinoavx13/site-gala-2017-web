@@ -16,6 +16,12 @@
     height: auto;
 }
 
+#location {
+    background-image: none;    
+    background-color: rgb(204, 206, 207);
+    height: 90%;
+}
+
 #gala-title {
     font-family: Anurati-Regular, sans-serif;
     color: #282945;
@@ -125,4 +131,55 @@
 
 #fireworks {
     right: 75%;
+}
+
+.ticket-sale-point {
+    text-transform: uppercase;
+    border: 2px solid white;
+    font-size: 70px;
+    font-family: BebasNeue, sans-serif;    
+}
+
+#header-title-location {
+    background: url("../img/icons/bar-gray.png") no-repeat bottom center;
+    font-family: BebasNeue, sans-serif;
+    font-size: 50px;
+    color: rgb(61, 61, 62);
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+#box-location {
+    height: 90%;
+}
+
+.location-bold {
+    font-family: Montserrat-Regular, sans-serif;
+    font-size: 15px;
+    color: rgb(61, 61, 62);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.location-regular {
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 15px;
+    color: rgb(79, 79, 81);
+    text-align: left;
+    margin: 0;
+}
+
+#maps-link {
+    background: url("../img/icons/arrow-losange.png") no-repeat center center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
 }
