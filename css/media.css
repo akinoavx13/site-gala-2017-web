@@ -84,11 +84,27 @@
     }
 
     #maps {
-        height: 90%;
+        height: 35%;
     }
 
-    #box-location {
-        background-color: rgb(204, 206, 207);        
-        height: 85%;
+    #contact-title {
+        font-size: 40px;
+    }
+
+    #contact-help {
+        font-size: 18px;
+        margin-bottom: 70px;
+    }
+
+    #contact-school {
+        font-size: 17px;
+    }
+    
+    .contact-info {
+        font-size: 17px;
+    }
+
+    #footer-info {
+        font-size: 10px;        
     }
 }
