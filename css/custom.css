@@ -22,6 +22,10 @@
     height: 90%;
 }
 
+#contact {
+    background-image: url("../img/contact-background.png");
+}
+
 #gala-title {
     font-family: Anurati-Regular, sans-serif;
     color: #282945;
@@ -182,4 +186,84 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
+}
+
+#contact-title {
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#contact-help {
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 130px;
+}
+
+#contact-school {
+    font-family: Montserrat-Medium, sans-serif;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.contact-info {
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 23px;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#contact-box-email {
+    padding-bottom: 30px;
+    background: url("../img/icons/bar-long.png") no-repeat bottom center;    
+    margin-top: 60px;
+}
+
+#contact-icon-location {
+    background: url("../img/icons/icon-location.png") no-repeat center center;
+}
+
+#contact-icon-email {
+    background: url("../img/icons/icon-email.png") no-repeat center center;
+}
+
+#box-icons {
+    margin-top: 40px;
+}
+
+#contact-icon-facebook {
+    background: url("../img/icons/icon-facebook.png") no-repeat center center;
+    height: 50px;
+}
+
+#contact-icon-twitter {
+    background: url("../img/icons/icon-twitter.png") no-repeat center center;
+    height: 50px;
+}
+
+#contact-icon-instagram {
+    background: url("../img/icons/icon-instagram.png") no-repeat center center;
+    height: 50px;    
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(46, 47, 48);
+    position: absolute;
+    bottom: 0;
+}
+
+#footer-info {
+    font-family: Montserrat-Light, sans-serif;
+    font-size: 15px;
+    color: white;
+    height: 50px;
+    margin-top: 13px;
 }
