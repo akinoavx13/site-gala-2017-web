@@ -141,7 +141,10 @@
     text-transform: uppercase;
     border: 2px solid white;
     font-size: 70px;
-    font-family: BebasNeue, sans-serif;    
+    font-family: BebasNeue, sans-serif;
+    max-height: 300px;
+    min-height: 300px;
+    line-height: 300px;
 }
 
 #header-title-location {
