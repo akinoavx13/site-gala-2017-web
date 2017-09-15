@@ -147,16 +147,16 @@
     line-height: 300px;
 }
 
-#header-title-location {
+.header-title-location {
     background: url("../img/icons/bar-gray.png") no-repeat bottom center;
     font-family: BebasNeue, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     color: rgb(61, 61, 62);
     font-weight: bold;
     text-transform: uppercase;
-    padding-top: 40px;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #box-location {
@@ -181,14 +181,14 @@
     margin: 0;
 }
 
-#maps-link {
+#change-text-location, #change-text-location-2 {
     background: url("../img/icons/arrow-losange.png") no-repeat center center;
     width: 100px;
     height: 100px;
     cursor: pointer;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 70px;
+    margin-top: 20px;
 }
 
 #contact-title {

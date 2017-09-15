@@ -52,3 +52,23 @@ $("#fireworks")
             opacity: 0
         }, 100);
     });
+
+$('#change-text-location').click(function(e){
+    e.preventDefault();
+
+    $("#test-1").hide(300, function() {
+        $("#test-2").show(300);
+    });
+
+    return false;
+});
+
+$('#change-text-location-2').click(function(e){
+    e.preventDefault();
+
+    $("#test-2").hide(300, function() {
+        $("#test-1").show(300);
+    });
+
+    return false;
+});
