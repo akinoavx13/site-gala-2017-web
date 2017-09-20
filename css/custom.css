@@ -270,3 +270,15 @@
     margin-top: 13px;
     margin-bottom: 0;
 }
+
+#contact-icon-facebook {
+    cursor: pointer;
+}
+
+#contact-icon-instagram {
+    cursor: pointer;
+}
+
+#contact-icon-twitter {
+    cursor: pointer;
+}

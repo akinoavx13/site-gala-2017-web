@@ -105,7 +105,7 @@
     }
 
     #footer-info {
-        font-size: 10px;        
+        font-size: 10px;  
     }
 
     #change-text-location, #change-text-location-2 {
@@ -117,5 +117,16 @@
         margin-right: auto;
         margin-top: 10px;
     }
-    
+
+    #contact-icon-twitter {
+        margin-bottom: 50px;
+    }
+
+    #contact-icon-email {
+        height: 40px;
+    }
+
+    #contact-icon-location {
+        height: 40px;
+    }
 }
