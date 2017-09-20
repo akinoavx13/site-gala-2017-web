@@ -108,7 +108,7 @@
         font-size: 10px;  
     }
 
-    #change-text-location, #change-text-location-2 {
+    #change-text-location, #change-text-location-2, #change-text-location-3 {
         background: url("../img/icons/arrow-losange-small.png") no-repeat center center;
         width: 50px;
         height: 50px;

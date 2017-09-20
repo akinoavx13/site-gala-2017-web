@@ -67,6 +67,16 @@ $('#change-text-location-2').click(function(e){
     e.preventDefault();
 
     $("#test-2").hide(300, function() {
+        $("#test-3").show(300);
+    });
+
+    return false;
+});
+
+$('#change-text-location-3').click(function(e){
+    e.preventDefault();
+
+    $("#test-3").hide(300, function() {
         $("#test-1").show(300);
     });
 

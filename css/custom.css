@@ -182,7 +182,7 @@
     margin: 0;
 }
 
-#change-text-location, #change-text-location-2 {
+#change-text-location, #change-text-location-2, #change-text-location-3 {
     background: url("../img/icons/arrow-losange.png") no-repeat center center;
     width: 100px;
     height: 100px;
