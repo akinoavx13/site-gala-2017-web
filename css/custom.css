@@ -1,5 +1,6 @@
 #home {
     background-image: url("../img/header.jpg");
+    height: 100vh;
 }
 
 #artist {
@@ -281,4 +282,8 @@
 
 #contact-icon-twitter {
     cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
 }
