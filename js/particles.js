@@ -1,6 +1,6 @@
 // Little Canvas things
 var canvas = document.querySelector("#canvas"),
-    ctx = canvas.getContext('2d');
+    ctx = canvas.getContext('2d', 'canvasBackground');
 
 // Set Canvas to be window size
 canvas.width = window.innerWidth;
@@ -8,9 +8,9 @@ canvas.height = window.innerHeight;
 
 // Configuration, Play with these
 var config = {
-    particleNumber: 800,
+    particleNumber: 1000,
     maxParticleSize: 10,
-    maxSpeed: 40,
+    maxSpeed: 30,
     colorVariation: 50
 };
 
@@ -132,7 +132,7 @@ var frame = function () {
 };
 
 // Click listener
-document.body.addEventListener("click", function (event) {
+document.getElementById("artists-wrapper").addEventListener("click", function (event) {
     var x = event.clientX,
         y = event.clientY;
     cleanUpArray();

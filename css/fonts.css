@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: BebasNeue;
-    src: url("../fonts/BebasNeue.otf");
+    src: url("../fonts/BebasNeue Regular.otf");
 }
 
 @font-face {
@@ -21,4 +21,19 @@
 @font-face {
     font-family: Montserrat-Light;
     src: url("../fonts/Montserrat-Light.otf");
+}
+
+@font-face {
+    font-family: Montserrat-ExtraLight;
+    src: url("../fonts/Montserrat-ExtraLight.otf");
+}
+
+@font-face {
+    font-family: Montserrat-Thin;
+    src: url("../fonts/Montserrat-Thin.otf");
+}
+
+@font-face {
+    font-family: Neptune;
+    src: url("../fonts/Neptune.otf");
 }
