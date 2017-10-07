@@ -2,4 +2,4 @@
 
 [Official website](http://gala-imt-atlantique.com)
 
-[Miror website](http://gala-imt.aslectra.com)
+[Mirror website](http://gala-imt.aslectra.com)
